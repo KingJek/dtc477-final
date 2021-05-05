@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+html {
+  min-height:100%;
+  background:url(background-img.jpg);
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: "Squada One", sans-serif;
+  font-size: 72px;
+  color: white;
+}
+
+h2 {
+  font-family: "Squada One", sans-serif;
+  color: white;
+}
+
+li, a {
+  color: white;
+}
+
+td {
+  font-size: 150%;
+}
+
+a {
+  font-size: 200%;
+  font-family: "Squada One", sans-serif;
+  text-decoration: none;
+  position: relative;
+  right: 2vw;
+}
+
+li {
+  list-style-type: none;
+}
+
+.inputForm {
+  color: white;
+}
+
+.dataHeaders {
+  color: white;
+  font-size: 100%;
+  font-family: "Squada One", sans-serif;
+  position: relative;
+  left: 60px;
+  top: 25px;
+}
+
+#classHeader {
+  position: relative;
+  left: 65px;
+}
+
+#asmntHeader {
+  position: relative;
+  left: 110px;
+}
+
+#dueHeader {
+  position: relative;
+  left: 180px;
+}
+
+#profHeader {
+  position: relative;
+  left: 260px;
+}
+
+#timeHeader {
+  position: relative;
+  left: 280px;
+}
+
+#searchHeaders {
+  position: relative;
+  right: 50px;
+}
+
+#searchClass {
+  position: relative;
+  left: 85px;
+}

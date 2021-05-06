@@ -49,6 +49,37 @@ if (isset($_POST["asmnt"])) {
     <h2>Edit Assignments</h2>
 
     <form method='POST'>
+            <div>
+        <table>
+        <tr class="dataHeaders"></tr>
+        <td>
+          <h3 id="classHeader" class="dataHeaders">
+            Class
+          </h3>
+        </td>
+        <td>
+          <h3 id="asmntHeader" class="dataHeaders">
+            Assignment
+          </h3>
+        </td>
+        <td>
+          <h3 id="dueHeader" class="dataHeaders">
+            Due Date
+          </h3>
+        </td>
+        <td>
+          <h3 id="profHeader" class="dataHeaders">
+            Professor     
+          </h3>
+        </td>
+        <td>
+          <h3 id="timeHeader" class="dataHeaders">
+            Investment     
+          </h3>
+        </td>
+        </tr>
+        </table>
+      </div>
       <?= outputAsmntResults($result, true); // call the function that returns HTML for a table
 ?>
       <table>
@@ -62,7 +93,7 @@ if (isset($_POST["asmnt"])) {
         </tr>
         <tr class="inputForm">
           <td>Due Date:</td>
-          <td><input id="dueDate" name="dueDate" type="datetime-local">(YYYY-MM-DD HH:MM:SS)</td>
+          <td><input id="dueDate" name="dueDate" type="datetime-local"> (YYYY-MM-DD HH:MM:SS)</td>
         </tr>
         <tr class="inputForm">
           <td>Professor:</td>
@@ -73,7 +104,7 @@ if (isset($_POST["asmnt"])) {
           <td><input id="timeCommitment" name="timeCommitment" type="text"></td>
         </tr>
       </table>
-      <input type="submit" name='saveChanges' value="Save Changes">
+      <input type="submit" name='saveChanges' id="saveChanges" value="Save Changes">
     </form>
 
     <ul>

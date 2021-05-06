@@ -53,7 +53,7 @@ $search = $_POST["searchText"];
           </h3>
         </td>
         <td>
-          <h3 id='asmntHeader' class='dataHeaders'>
+          <h3 id='searchAsmnt' class='dataHeaders'>
             Assignment
           </h3>
         </td>

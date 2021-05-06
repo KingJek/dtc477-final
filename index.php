@@ -79,7 +79,7 @@ if (!$result) die("Select Error: " . $sql . "<br>" . $db->error);
 
       <?= outputAsmntResults($result, true); // call the function that returns HTML for a table
 ?>
-        <button type="submit">Delete Checked Records</button>
+        <button type="submit">Mark As Complete</button>
     </form>
 
     <ul>

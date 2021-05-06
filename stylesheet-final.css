@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
 
 html {
   min-height:100%;
@@ -11,11 +12,13 @@ h1 {
   font-family: "Squada One", sans-serif;
   font-size: 72px;
   color: white;
+  margin: 0;
 }
 
 h2 {
   font-family: "Squada One", sans-serif;
   color: white;
+  margin: 0;
 }
 
 li, a {
@@ -23,7 +26,8 @@ li, a {
 }
 
 td {
-  font-size: 150%;
+  font-size: 220%;
+  font-family: "Scheherazade", serif;
 }
 
 a {
@@ -38,16 +42,53 @@ li {
   list-style-type: none;
 }
 
+button {
+        font-family: "Squada One", sans-serif;
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        width: 200px;
+}
+
+button:hover {
+        display: inline-block;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        width: 200px;
+}
+
+#saveChanges {
+        font-family: "Squada One", sans-serif;
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        width: 200px;
+}
+
+#saveChanges:hover {
+        display: inline-block;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        width: 200px;
+}
+
 .inputForm {
   color: white;
 }
 
 .dataHeaders {
   color: white;
-  font-size: 100%;
+  font-size: 30px;
   font-family: "Squada One", sans-serif;
   position: relative;
-  left: 60px;
   top: 25px;
 }
 
@@ -58,30 +99,35 @@ li {
 
 #asmntHeader {
   position: relative;
-  left: 110px;
+  left: 9vw;
 }
 
 #dueHeader {
   position: relative;
-  left: 180px;
+  left: 17vw;
 }
 
 #profHeader {
   position: relative;
-  left: 260px;
+  left: 22vw;
 }
 
 #timeHeader {
   position: relative;
-  left: 280px;
+  left: 23vw;
 }
 
 #searchHeaders {
   position: relative;
-  right: 50px;
+  right: 8vw;
 }
 
 #searchClass {
   position: relative;
-  left: 85px;
+  left: 9vw;
+}
+
+#searchAsmnt {
+  position: relative;
+  left: 12vw;
 }
